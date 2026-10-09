@@ -18,6 +18,18 @@ A table with planets and facts on them
 
 <h1>Planet Data Table</h1>
 
+<table>
+
+<caption>
+Data about the planets and our solar system. Planetary facts taken from
+<a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+>Nasa's Planetary Fact Sheet - Metric </a>
+</caption>
+
+
+
+
+<table>
 
 
 Rows
