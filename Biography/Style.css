@@ -10,11 +10,25 @@ body {
   margin: 10px, auto;
 }
 
+h1 {
+font-size: 2rem
+color: darkslategray;
+border: 10px dotted purple;
+}
+
+h2 {
+font-style: italic;
+font size: 2rem;
+}
+
+.job-title {
+color: dakrkslategray;
+font-weight: bold;
+}
+
 ul {
   background-color: white
   border: 5px solid purple;
   border-radius: 50 px;
   padding: 30px;
-  
-
 }
