@@ -32,3 +32,14 @@ ul {
   border-radius: 50 px;
   padding: 30px;
 }
+
+a {
+color: green;
+}
+
+
+a:hover,
+a:focus {
+color: dark green;
+text-decoration: none;
+}
