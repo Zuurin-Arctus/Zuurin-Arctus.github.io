@@ -13,7 +13,7 @@ body {
 h1 {
 font-size: 2 rem;
 color: darkslategray;
-border: 10px dotted purple;
+border-bottom: 10px dotted purple;
 }
 
 h2 {
@@ -40,6 +40,6 @@ color: green;
 
 a:hover,
 a:focus {
-color: dark-green;
+color: darkgreen;
 text-decoration: none;
 }
