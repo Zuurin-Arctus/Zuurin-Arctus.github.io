@@ -1,7 +1,7 @@
  General setup 
 
- {
-  box-sizing border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -13,10 +13,6 @@ body {
   padding 0 20px;
   min-width 980px;
   max-width 1400px;
-}
-
-p {
-text-indent: 3em;
 }
 
 h1 {
@@ -31,7 +27,10 @@ h2 {
   font-size: medium;
   letter-spacing: 1.5px;
 }
-
+ 
+p + section h2 {
+text-indent: 3em;
+}
 
  Layout 
 
@@ -60,15 +59,18 @@ footer p {
 
 
 a {
-color:#aa6666;
 outline: none;
-text-underline-position: under;
+}
+
+a:link,
+a:visited {
+color:#aa6666;
 }
 
 a:hover,
 a:focus {
 color: #852222;
-ttext-underline-position: unset;
+text-decoration: none;
 }
 
 a[href^="http"]::after {
@@ -78,6 +80,47 @@ width: 0.5em;
 height: 0.5em;
 margin-left: 0.25em;
 
-background-size: 100%;
-background-image: "external-link-52.png"
+background-size: 50%;
+background-image: link="external-link-52.png"
+}
+
+
+----
+
+ul,
+ol {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+----
+nav ul {
+paddingleft: 0;
+}
+
+nav li {
+list-style-type: none;
+margin-bottom: 2rem;
+}
+
+nav li a {
+font-family: verdana
+color: #752626;
+text-decoration:
+display: inline-block;
+width: 150%;
+line-height: 3.5;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 1px;
+font-size: 1.3rem;
+font-weight: bold;
+border: 1px solid #aa6666;
 }
