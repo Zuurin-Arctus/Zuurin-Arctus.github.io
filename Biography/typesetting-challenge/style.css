@@ -55,3 +55,29 @@ footer {
 footer p {
   text-align center;
 }
+
+
+
+
+a {
+color:#aa6666;
+outline: none;
+text-underline-position: under;
+}
+
+a:hover,
+a:focus {
+color: #852222;
+ttext-underline-position: unset;
+}
+
+a[href^="http"]::after {
+content: "";
+display: inline-block;
+width: 0.5em;
+height: 0.5em;
+margin-left: 0.25em;
+
+background-size: 100%;
+background-image: "external-link-52.png"
+}
