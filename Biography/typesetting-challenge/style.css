@@ -9,12 +9,34 @@ body {
   font-size: small;
   line-height: normal;
   letter-spacing: 1px;
-  margin 0 auto;
-  padding 0 20px;
-  min-width 980px;
-  max-width 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+--------------
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
+}
+
+--------------------
 h1 {
   justify-content: center;
   font-family: verdana;
@@ -31,32 +53,7 @@ h2 {
 p + section h2 {
 text-indent: 3em;
 }
-
- Layout 
-
-main {
-  display grid;
-  grid-template-columns 5fr 2fr 2fr;
-  gap 40px;
-  padding 20px 0;
-}
-
- header and footer 
-
-header {
-  border-bottom 5px solid #aa6666;
-}
-
-footer {
-  border-top 5px solid #aa6666;
-}
-
-footer p {
-  text-align center;
-}
-
-
-
+--------------------
 
 a {
 outline: none;
@@ -85,7 +82,7 @@ background-image: link="external-link-52.png"
 }
 
 
-----
+---------------
 
 ul,
 ol {
@@ -102,25 +99,27 @@ ol {
 
 ----
 nav ul {
-paddingleft: 0;
+padding-left: 0;
 }
 
 nav li {
 list-style-type: none;
-margin-bottom: 2rem;
+margin-bottom: 1 rem;
 }
 
 nav li a {
-font-family: verdana
+font-family: verdana;
 color: #752626;
-text-decoration:
+text-decoration: none;
 display: inline-block;
-width: 150%;
+width: 100%;
 line-height: 3.5;
 text-transform: uppercase;
 text-align: center;
 letter-spacing: 1px;
 font-size: 1.3rem;
 font-weight: bold;
-border: 1px solid #aa6666;
+border-style: groove;
+border: 2px solid #aa6666;
+
 }
