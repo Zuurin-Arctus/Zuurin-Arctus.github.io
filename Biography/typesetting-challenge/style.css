@@ -6,6 +6,9 @@
 
 body {
   font-family: serif;
+  font-size: small;
+  line-height: normal;
+  letter-spacing: 1px;
   margin 0 auto;
   padding 0 20px;
   min-width 980px;
@@ -13,10 +16,14 @@ body {
 }
 h1 {
   font-family: verdana;
+  font-size: large;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-family: verdana;
+  font-size: medium;
+  letter-spacing: 1.5px;
 }
 
 
